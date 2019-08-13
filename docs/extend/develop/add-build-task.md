@@ -385,6 +385,7 @@ $env:TASK_TEST_TRACE=1
 ```
 
 <a name="extensionmanifest" />
+
 ## Step 3: Create the extension manifest file
 The extension manifest contains all of the information about your extension. It includes links to your files, including your task folders and images. This example is an extension manifest which contains the build or release task.
 
@@ -434,8 +435,11 @@ tfx extension create --manifest-globs vss-extension.json
 After you have your packaged extension in a .vsix file, you're ready to publish your extension to the Marketplace.
 
 <a name="publishext" />
+
 ## Step 5: Publish your extension
+
 <a name="createpublisher" />
+
 ### Create your publisher
 
 All extensions, including those from Microsoft, are identified as being provided by a publisher.
@@ -480,6 +484,7 @@ Share it with your organization so that you can install and test it.
 Now that your extension is in the Marketplace and shared, anyone who wants to use it must install it.
 
 <a name="installandtest" />
+
 ## Optional: Install and test your extension
 Installing an extension that is shared with you is simple and can be done in a few steps:
 
