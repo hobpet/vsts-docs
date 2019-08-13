@@ -62,6 +62,7 @@ Below are the steps to create a build or release task extension and put it on th
 * [Optional: Install and test your extension](#installandtest)
 
 <a name="createtask" />
+
 ## Step 1: Create the custom task
 
 Step 1 is all about setting up your task. Every part of Step 1 should be done within the `buildAndReleaseTask` folder.
